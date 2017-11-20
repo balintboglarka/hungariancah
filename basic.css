@@ -1,0 +1,275 @@
+html {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h1, h2 {
+	color: #222;
+	text-shadow: 0px 1px 1px #DDD;
+}
+
+.header-break-section h1 {
+    color: #FFF;
+    text-shadow: 0px 1px 1px #222;
+    padding-bottom: 50px;
+}
+
+p {
+	font-size: 18px;
+	color: #222;
+	text-shadow: 0px 1px 1px #CCC;
+}
+
+a:link {
+    color: #222;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #222;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+a:active {
+    color: #444;
+    text-decoration: none;
+}
+
+div.text-section {
+	width: 100%;
+	/*min-height: 250px;*/
+	/*background-color: #FAFAFA;*/
+
+	background: rgb(209,209,209);
+	background: -moz-linear-gradient(-45deg,  rgba(209,209,209,1) 0%, rgba(163,163,163,1) 76%, rgba(68,68,68,1) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(209,209,209,1)), color-stop(76%,rgba(163,163,163,1)), color-stop(100%,rgba(68,68,68,1)));
+	background: -webkit-linear-gradient(-45deg,  rgba(209,209,209,1) 0%,rgba(163,163,163,1) 76%,rgba(68,68,68,1) 100%);
+	background: -o-linear-gradient(-45deg,  rgba(209,209,209,1) 0%,rgba(163,163,163,1) 76%,rgba(68,68,68,1) 100%);
+	background: -ms-linear-gradient(-45deg,  rgba(209,209,209,1) 0%,rgba(163,163,163,1) 76%,rgba(68,68,68,1) 100%);
+	background: linear-gradient(135deg,  rgba(209,209,209,1) 0%,rgba(163,163,163,1) 76%,rgba(68,68,68,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#444444',GradientType=1 );
+}
+
+div.break-section {
+	width: 100%;
+	min-height: 300px;
+	background-color: #060606;
+    background-image: url('resources/bg_black_orchid.png');
+    background-image: url('resources/bg_black_mamba.png');
+    background-image: url('resources/bg_black_paper.png');
+}
+
+div.header-break-section {
+    min-height: 100%;
+}
+
+div.section-content {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 100px 100px 100px 100px;
+}
+
+span.paragraph-header {
+	font-weight: bold;
+}
+
+div.facebook-box {
+    text-align: center;
+}
+
+.header-break-section div.facebook-box {
+    padding-top: 50px;
+}
+
+div.break-section div.quotes p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+
+/***
+  CARDS
+***/
+
+/* A4 size; 21cm x 29.7cm */
+table.cah {
+    border-collapse: separate;
+    border-spacing: 3px; /* 10 */
+    font-weight: bold;
+    font-size: 24px; /* 30 */
+    table-layout: fixed;
+    width: 800px;
+    /*
+    height: 265px;
+    */
+    margin: 0;
+    padding: 0;
+}
+
+tr.cah {
+}
+
+td.cah, button {
+    /* height = 1.6767 * width */
+    /* width: 250px; */
+    /*
+    width: 232px;
+    height: 389px;
+    */
+    /*
+    width: 100px;
+    height: 167px;
+    */
+    width: 25%;
+    height: 265px;
+    vertical-align: top;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.white-on-black {
+    background-color: #000;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.black-on-white {
+    background-color: #FFF;
+    color: #000;
+    border-color: #000;
+}
+
+
+/***
+  BUTTONS
+***/
+
+div.card-download-buttons {
+	text-align: center;
+}
+
+button {
+	width: 200px;
+    height: 265px;
+	margin: 0 5% 0 5%;
+
+    display: inline-block;
+    text-decoration: none;
+    font: bold 24px Arial;
+    padding: 24px 24px;
+
+    cursor: pointer;
+}
+
+button.card-download-button-white{
+    background: #FFF;
+    border-color: #000;
+    color: #000;
+}
+
+button.card-download-button-white:hover{
+    background: #DDD;
+}
+
+button.card-download-button-black{
+    background: #000;
+    border-color: #FFF;
+    color: #FFF; 
+}
+
+button.card-download-button-black:hover{
+    background: #222; 
+}
+
+
+
+/*
+iv.card-download-buttons {
+    text-align: center;
+}
+
+button {
+    width: 25%;
+    margin: 0 5% 0 5%;
+
+    display: inline-block;
+    text-decoration: none;
+    font: bold 18px Arial;
+    padding: 8px 11px;
+    color: #555;
+    border: 1px solid #dedede;
+}
+
+button.card-download-button-white{
+    background: #f5f5f5;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0'); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f0f0f0)); 
+    background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    -moz-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+}
+
+button.card-download-button-white:hover{
+    background: #f4f4f4;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+    background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#f8f8f8)); 
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    text-shadow: 0 1px 0 #fdfdfd;
+    -webkit-box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    -moz-box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+}
+
+button.card-download-button-black{
+    background: #525252;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5e5e5e', endColorstr='#434343');
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e), to(#434343));
+    background: -moz-linear-gradient(top,  #5e5e5e, #434343);
+    border-color: #4c4c4c #313131 #1f1f1f;
+    color: #fff;
+    text-shadow: 0 1px 0 #2e2e2e;
+    -webkit-box-shadow: 0 1px 1px #afafaf, inset 0 1px 0 #868686;
+    -moz-box-shadow: 0 1px 1px #afafaf, inset 0 1px 0 #868686;
+    box-shadow: 0 1px 1px #afafaf, inset 0 1px 0 #868686;    
+}
+
+button.card-download-button-black:hover{
+    background: #5a5a5a;
+    border-color: #2c2c2c #1c1c1c #101010;
+    text-shadow: 0 1px 0 #363636;
+    -webkit-box-shadow: 0 1px 1px #b1b1b1, inset 0 1px 0 #838383;
+    -moz-box-shadow: 0 1px 1px #b1b1b1, inset 0 1px 0 #838383;
+    box-shadow: 0 1px 1px #b1b1b1, inset 0 1px 0 #838383;    
+}
+*/
